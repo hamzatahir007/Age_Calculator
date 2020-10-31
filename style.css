@@ -1,0 +1,154 @@
+body{
+    text-align: center;
+    margin: 2px;
+}
+.main0{
+    width: 100%;
+    height: 600px;
+    background-color: gray;
+}
+.main1{
+    text-align: center;
+    margin: 0PX;
+    background-color: #D1D4D4;
+    width: 50%;
+    height: 600px;
+    float: left;
+
+}
+.main2{
+    text-align: center;
+    margin: 0px;
+    float: right;
+    width: 50%;
+    height: 600px;
+}
+
+.heading >h1{
+    color: #008CBA;
+    font-family: Segoe Print;
+    font-size: 40px;
+    font-weight: 800;
+    display: inline-block;
+    width: 50%;
+    margin: 2px;
+    padding: 150px 0px 40px 0px;
+}
+.date{
+    width: 100%;
+    height: 60px;
+}
+.date > h5{
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+    font-family: Segoe Print;
+    font-weight: 800;
+    padding-top: 5px;
+
+}
+
+.btn1{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.btn1:hover {
+    background-color: white;
+    color: black;
+    border: .3px solid #4CAF50;
+}
+#birth_date{
+    width: 250px;
+    height: 45px;
+}
+
+.result{
+    width: 100%;
+    height: 70px;
+}
+.result h5{
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+    font-family: Segoe Print;
+    font-weight: 800;
+    padding-top: 5px;
+}
+.result .alert-success{
+    width: 50%;
+    height: 50px;
+    float: left;
+    padding-left: 50px;
+    margin: 0px 0px 0px 150px;
+}
+
+@media only screen and (max-width: 600px){
+    .heading > h1{
+        color: #008CBA;
+        font-family: Segoe Print;
+        font-size: 30px;
+        font-weight: 800;
+        display: inline-block;
+        width: 50%;
+        margin: 2px;
+        padding: 150px 0px 40px 0px;
+    }
+    .date > h5{
+        display: inline-block;
+        float: left;
+        padding-left: 40px;
+        font-size: 15px;
+        font-family: Segoe Print;
+        font-weight: 800;
+        padding-top: 2px;
+    
+    }
+    #birth_date{
+        width: 150px;
+        height: 25px;
+    }    
+    .btn1{
+        background-color: #4CAF50;
+        border: .3px solid green;
+        color: white;
+        padding: 0px 5px 0px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        width: 100px;
+        height: 25px;
+    }
+    .result{
+        width: 100%;
+        height: 70px;
+
+    }
+    .result h5{
+        display: inline-block;
+        float: left;
+        padding-left: 40px;
+        font-family: Segoe Print;
+        font-weight: 800;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    .result .alert-success{
+        width: 50%;
+        height: 65px;
+        float: left;
+        padding-left: 50px;
+        margin: 0px 0px 0px 120px;
+    }
+}
+
+
+
+
